@@ -56,10 +56,10 @@ Development environment setup, backend foundation, and local database configurat
 ├── docker-compose.yml   # Local development environment  
 └── README.md  
 
-#Getting Started Prerequisites:  
+# Getting Started Prerequisites:  
 Python 3.11+ Docker Desktop Node.js 18+ Terraform 1.5+ AWS CLI configured  
 
-##Local Development:  
+## Local Development:  
 
 # Start database and cache
 docker-compose up -d
@@ -83,8 +83,13 @@ http://localhost:8000/docs
 Microservices architecture deployed on AWS:
 
 -API Gateway: Application Load Balancer with SSL termination
+
 -Compute: ECS Fargate for containerized backend
+
 -Storage: S3 for documents, RDS PostgreSQL for structured data
+
 -Cache: ElastiCache Redis for session and query caching
+
 -CDN: CloudFront for static asset delivery
+
 -Monitoring: CloudWatch for logs, metrics, and alarms
