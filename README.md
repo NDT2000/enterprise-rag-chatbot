@@ -56,10 +56,10 @@ Development environment setup, backend foundation, and local database configurat
 ├── docker-compose.yml   # Local development environment  
 └── README.md  
 
-Getting Started Prerequisites:  
+#Getting Started Prerequisites:  
 Python 3.11+ Docker Desktop Node.js 18+ Terraform 1.5+ AWS CLI configured  
 
-Local Development:  
+##Local Development:  
 
 # Start database and cache
 docker-compose up -d
@@ -73,11 +73,13 @@ pip install -r requirements.txt
 # Run backend server
 uvicorn app.main:app --reload
 
-API available at: http://localhost:8000
+#API available at: 
+http://localhost:8000
 
-Interactive docs: http://localhost:8000/docs
+#Interactive docs:
+http://localhost:8000/docs
 
-Architecture
+##Architecture
 Microservices architecture deployed on AWS:
 
 -API Gateway: Application Load Balancer with SSL termination
