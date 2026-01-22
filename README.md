@@ -73,13 +73,13 @@ pip install -r requirements.txt
 # Run backend server
 uvicorn app.main:app --reload
 
-#API available at: 
+# API available at: 
 http://localhost:8000
 
-#Interactive docs:
+# Interactive docs:
 http://localhost:8000/docs
 
-##Architecture
+## Architecture
 Microservices architecture deployed on AWS:
 
 -API Gateway: Application Load Balancer with SSL termination
