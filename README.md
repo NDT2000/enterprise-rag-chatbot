@@ -80,9 +80,9 @@ Interactive docs: http://localhost:8000/docs
 Architecture
 Microservices architecture deployed on AWS:
 
-API Gateway: Application Load Balancer with SSL termination
-Compute: ECS Fargate for containerized backend
-Storage: S3 for documents, RDS PostgreSQL for structured data
-Cache: ElastiCache Redis for session and query caching
-CDN: CloudFront for static asset delivery
-Monitoring: CloudWatch for logs, metrics, and alarms
+-API Gateway: Application Load Balancer with SSL termination
+-Compute: ECS Fargate for containerized backend
+-Storage: S3 for documents, RDS PostgreSQL for structured data
+-Cache: ElastiCache Redis for session and query caching
+-CDN: CloudFront for static asset delivery
+-Monitoring: CloudWatch for logs, metrics, and alarms
